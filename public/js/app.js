@@ -18,7 +18,7 @@ weatherForm.addEventListener('submit', (e) => {
             }
             messageOne.textContent = data.place
             messageTwo.textContent = 'It is currently '+data.temperature+' degrees celsius and feels like '+
-                                        data.feelslike+' with '+data.precip+'% chance of rain'
+                                        data.feelslike+' with '+data.precip+'% chance of rain.'
         })
     })
 
